@@ -1,0 +1,150 @@
+.advanced-search {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.advanced-search h2 {
+  font-size: 24px;
+  color: #1a1a1a;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.search-box2{
+  margin-top: 8px;
+}
+
+.search-select {
+  padding: 12px 18px;
+  font-size: 15px;
+  width:120px;
+  border: none;
+  color: 1px solid #f0f0f0;
+  font-size: 13px;
+  font-weight: 600;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  flex: 3;
+}
+
+.search-select {
+  flex: 1.5;
+  min-width: 180px;
+}
+
+.search-input:focus,
+.search-select:focus {
+  border-color: #0066ff;
+}
+
+.search-btn {
+  background-color: #0066ff;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+ 
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0051cc;
+}
+
+.search-btn i {
+  font-size: 20px;
+}
+
+.search-result {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  background-color: #ffffff;
+  border: 2px solid #f0f0f0;
+  padding: 25px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+ 
+}
+
+.result-left {
+  flex: 3;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.result-left p {
+  margin: 8px 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.result-left strong {
+  color: #6c63ff;
+}
+
+.result-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-photo {
+  width: 380px;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #555;
+}
+
+.toggle-btn {
+  background-color: #fff;
+  color: #333;
+  border:2px solid #f0f0f0;
+  padding: 11px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #6c63ff;
+  color: #fff;
+}
+
+
+.search-input {
+  flex: 3 1 250px; /* flex-grow: 3, flex-shrink: 1, flex-basis: 250px */
+  min-width: 200px;
+}
+
+.search-select {
+  flex: 1.5 1 180px;
+  min-width: 150px;
+}
